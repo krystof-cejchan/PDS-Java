@@ -4,54 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6fac90c-952e-4605-8d73-c1030ef42d9b" name="Changes" comment="Atomické proměnné &amp; thread-safe kolekce">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cz/krystofcejchan/distributed_systems/hazelcast/DistributedMapListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cz/krystofcejchan/distributed_systems/hazelcast/DistributedMapReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cz/krystofcejchan/distributed_systems/hazelcast/DistributedMapWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cz/krystofcejchan/distributed_systems/jgroups/LeaderElection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cz/krystofcejchan/distributed_systems/rest_soap_websocket/SpringBootMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cz/krystofcejchan/distributed_systems/rest_soap_websocket/components/WebSocketHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cz/krystofcejchan/distributed_systems/rest_soap_websocket/controllers/RestAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cz/krystofcejchan/distributed_systems/rest_soap_websocket/controllers/SoapController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cz/krystofcejchan/distributed_systems/rest_soap_websocket/services/SoapService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cz/krystofcejchan/distributed_systems/rmi/RMIClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cz/krystofcejchan/distributed_systems/rmi/RMIServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cz/krystofcejchan/distributed_systems/rmi/RemoteInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cz/krystofcejchan/distributed_systems/rmi/RemoteInterfaceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/PDS-Java.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Atomic Variables, Thread-safe collections/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Atomic Variables, Thread-safe collections/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Atomic Variables, Thread-safe collections/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Atomic Variables, Thread-safe collections/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Atomic Variables, Thread-safe collections/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Atomic Variables, Thread-safe collections/PDS Examples.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Atomic Variables, Thread-safe collections/src/ArrayListThreadsExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/krystofcejchan/atomic_variables_and_threadsafe_collections/ArrayListThreadsExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Atomic Variables, Thread-safe collections/src/AtomicIntegerExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/krystofcejchan/atomic_variables_and_threadsafe_collections/AtomicIntegerExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Atomic Variables, Thread-safe collections/src/CopyOnWriteArrayListThreadsExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/krystofcejchan/atomic_variables_and_threadsafe_collections/CopyOnWriteArrayListThreadsExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Atomic Variables, Thread-safe collections/src/LongAdderExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/krystofcejchan/atomic_variables_and_threadsafe_collections/LongAdderExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Atomic Variables, Thread-safe collections/src/ParallelStreamsExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/krystofcejchan/atomic_variables_and_threadsafe_collections/ParallelStreamsExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Atomic Variables, Thread-safe collections/src/SynchronizedListThreadsExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/krystofcejchan/atomic_variables_and_threadsafe_collections/SynchronizedListThreadsExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Thread, ThreadPool, ForkJoin, ParallelMergeSort/ukazky k prezentaci/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Thread, ThreadPool, ForkJoin, ParallelMergeSort/ukazky k prezentaci/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Thread, ThreadPool, ForkJoin, ParallelMergeSort/ukazky k prezentaci/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Thread, ThreadPool, ForkJoin, ParallelMergeSort/ukazky k prezentaci/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Thread, ThreadPool, ForkJoin, ParallelMergeSort/ukazky k prezentaci/out/production/ukazky k prezentaci/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Thread, ThreadPool, ForkJoin, ParallelMergeSort/ukazky k prezentaci/out/production/ukazky k prezentaci/MyTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Thread, ThreadPool, ForkJoin, ParallelMergeSort/ukazky k prezentaci/out/production/ukazky k prezentaci/ParallelMergeSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Thread, ThreadPool, ForkJoin, ParallelMergeSort/ukazky k prezentaci/out/production/ukazky k prezentaci/ukazkaThreadPool.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Thread, ThreadPool, ForkJoin, ParallelMergeSort/ukazky k prezentaci/src/MyTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/krystofcejchan/thread_threadpool_forkjoin_parallelmergesort/MyTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Thread, ThreadPool, ForkJoin, ParallelMergeSort/ukazky k prezentaci/src/UkazkaForkJoinPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/krystofcejchan/thread_threadpool_forkjoin_parallelmergesort/UkazkaForkJoinPool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Thread, ThreadPool, ForkJoin, ParallelMergeSort/ukazky k prezentaci/src/UkazkaThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/krystofcejchan/thread_threadpool_forkjoin_parallelmergesort/UkazkaThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Thread, ThreadPool, ForkJoin, ParallelMergeSort/ukazky k prezentaci/src/UkazkaThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/krystofcejchan/thread_threadpool_forkjoin_parallelmergesort/UkazkaThreadPool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Thread, ThreadPool, ForkJoin, ParallelMergeSort/ukazky k prezentaci/ukazky k prezentaci.iml" beforeDir="false" />
-    </list>
+    <list default="true" id="c6fac90c-952e-4605-8d73-c1030ef42d9b" name="Changes" comment="java files to pom project" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -88,6 +41,7 @@
     "Application.CopyOnWriteArrayListThreadsExample.executor": "Run",
     "Application.LeaderElection.executor": "Run",
     "Application.LongAdderExample.executor": "Run",
+    "Application.MessagingAndLeaderElection.executor": "Run",
     "Application.ParallelStreamsExample.executor": "Run",
     "Application.RMIClient.executor": "Run",
     "Application.RMIServer.executor": "Run",
@@ -116,13 +70,13 @@
       <recent name="$PROJECT_DIR$/Thread, ThreadPool, ForkJoin, ParallelMergeSort" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="ArrayListThreadsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cz.krystofcejchan.atomic_variables_and_threadsafe_collections.ArrayListThreadsExample" />
+  <component name="RunManager" selected="Application.AwaitSignalDemo">
+    <configuration name="AwaitSignalDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cz.krystofcejchan.semaphore_lock_await.AwaitSignalDemo" />
       <module name="VolbaLidraVJGroup" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cz.krystofcejchan.atomic_variables_and_threadsafe_collections.*" />
+          <option name="PATTERN" value="cz.krystofcejchan.semaphore_lock_await.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MessagingAndLeaderElection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cz.krystofcejchan.distributed_systems.jgroups.MessagingAndLeaderElection" />
+    <configuration name="LockExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cz.krystofcejchan.semaphore_lock_await.LockExample" />
       <module name="VolbaLidraVJGroup" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cz.krystofcejchan.distributed_systems.jgroups.*" />
+          <option name="PATTERN" value="cz.krystofcejchan.semaphore_lock_await.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RMIClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cz.krystofcejchan.distributed_systems.rmi.RMIClient" />
+    <configuration name="MonitorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cz.krystofcejchan.semaphore_lock_await.MonitorExample" />
       <module name="VolbaLidraVJGroup" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cz.krystofcejchan.distributed_systems.rmi.*" />
+          <option name="PATTERN" value="cz.krystofcejchan.semaphore_lock_await.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RMIServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cz.krystofcejchan.distributed_systems.rmi.RMIServer" />
+    <configuration name="SemaphoreExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cz.krystofcejchan.semaphore_lock_await.SemaphoreExample" />
       <module name="VolbaLidraVJGroup" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cz.krystofcejchan.distributed_systems.rmi.*" />
+          <option name="PATTERN" value="cz.krystofcejchan.semaphore_lock_await.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SynchronizedListThreadsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cz.krystofcejchan.atomic_variables_and_threadsafe_collections.SynchronizedListThreadsExample" />
+    <configuration name="SynchronizedExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cz.krystofcejchan.semaphore_lock_await.SynchronizedExample" />
       <module name="VolbaLidraVJGroup" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cz.krystofcejchan.atomic_variables_and_threadsafe_collections.*" />
+          <option name="PATTERN" value="cz.krystofcejchan.semaphore_lock_await.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -184,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MessagingAndLeaderElection" />
-        <item itemvalue="Application.RMIClient" />
-        <item itemvalue="Application.RMIServer" />
-        <item itemvalue="Application.ArrayListThreadsExample" />
-        <item itemvalue="Application.SynchronizedListThreadsExample" />
+        <item itemvalue="Application.AwaitSignalDemo" />
+        <item itemvalue="Application.LockExample" />
+        <item itemvalue="Application.MonitorExample" />
+        <item itemvalue="Application.SemaphoreExample" />
+        <item itemvalue="Application.SynchronizedExample" />
       </list>
     </recent_temporary>
   </component>
@@ -211,7 +165,7 @@
       <workItem from="1731501859073" duration="251000" />
       <workItem from="1731505507305" duration="277000" />
       <workItem from="1731508710238" duration="141000" />
-      <workItem from="1731521956787" duration="2267000" />
+      <workItem from="1731521956787" duration="3118000" />
     </task>
     <task id="LOCAL-00001" summary="ukázky k Thread, ThreadPool, ForkJoin, ParallelMergeSort">
       <option name="closed" value="true" />
@@ -237,7 +191,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731508836573</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="java files to pom project">
+      <option name="closed" value="true" />
+      <created>1731524487845</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1731524487845</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,6 +208,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ukázky k Thread, ThreadPool, ForkJoin, ParallelMergeSort" />
     <MESSAGE value="Atomické proměnné &amp; thread-safe kolekce" />
-    <option name="LAST_COMMIT_MESSAGE" value="Atomické proměnné &amp; thread-safe kolekce" />
+    <MESSAGE value="java files to pom project" />
+    <option name="LAST_COMMIT_MESSAGE" value="java files to pom project" />
   </component>
 </project>
