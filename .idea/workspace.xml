@@ -4,21 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6fac90c-952e-4605-8d73-c1030ef42d9b" name="Changes" comment="3">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cz/krystofcejchan/distributed_systems/README.txt" afterDir="false" />
+    <list default="true" id="c6fac90c-952e-4605-8d73-c1030ef42d9b" name="Changes" comment="ds readme">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cz/krystofcejchan/distributed_systems/rmi/RMIServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/krystofcejchan/distributed_systems/rmi/RMIServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cz/krystofcejchan/semaphore_lock_await/AwaitSignalDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cz/krystofcejchan/semaphore_lock_await/AwaitSignalExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cz/krystofcejchan/semaphore_lock_await/Counter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cz/krystofcejchan/semaphore_lock_await/LockExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cz/krystofcejchan/semaphore_lock_await/MonitorExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cz/krystofcejchan/semaphore_lock_await/MyCounter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cz/krystofcejchan/semaphore_lock_await/ResourceAccess.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cz/krystofcejchan/semaphore_lock_await/SemaphoreExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cz/krystofcejchan/semaphore_lock_await/SynchronizedExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cz/krystofcejchan/semaphore_lock_await/WaitNotifyDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cz/krystofcejchan/semaphore_lock_await/WaitNotifyExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,7 +180,7 @@
       <workItem from="1731561650629" duration="650000" />
       <workItem from="1731569393542" duration="3733000" />
       <workItem from="1731586604000" duration="178000" />
-      <workItem from="1731850893081" duration="308000" />
+      <workItem from="1731850893081" duration="460000" />
     </task>
     <task id="LOCAL-00001" summary="ukázky k Thread, ThreadPool, ForkJoin, ParallelMergeSort">
       <option name="closed" value="true" />
@@ -234,7 +222,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731527093675</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="ds readme">
+      <option name="closed" value="true" />
+      <created>1731851230002</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1731851230002</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,7 +241,8 @@
     <MESSAGE value="Atomické proměnné &amp; thread-safe kolekce" />
     <MESSAGE value="java files to pom project" />
     <MESSAGE value="3" />
-    <option name="LAST_COMMIT_MESSAGE" value="3" />
+    <MESSAGE value="ds readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="ds readme" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
