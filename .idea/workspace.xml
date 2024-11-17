@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6fac90c-952e-4605-8d73-c1030ef42d9b" name="Changes" comment="ds readme">
+    <list default="true" id="c6fac90c-952e-4605-8d73-c1030ef42d9b" name="Changes" comment="README.md">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -180,7 +180,7 @@
       <workItem from="1731561650629" duration="650000" />
       <workItem from="1731569393542" duration="3733000" />
       <workItem from="1731586604000" duration="178000" />
-      <workItem from="1731850893081" duration="460000" />
+      <workItem from="1731850893081" duration="519000" />
     </task>
     <task id="LOCAL-00001" summary="ukázky k Thread, ThreadPool, ForkJoin, ParallelMergeSort">
       <option name="closed" value="true" />
@@ -230,7 +230,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731851230002</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="README.md">
+      <option name="closed" value="true" />
+      <created>1731851371404</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1731851371404</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,7 +250,8 @@
     <MESSAGE value="java files to pom project" />
     <MESSAGE value="3" />
     <MESSAGE value="ds readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="ds readme" />
+    <MESSAGE value="README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="README.md" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
