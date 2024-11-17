@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6fac90c-952e-4605-8d73-c1030ef42d9b" name="Changes" comment="java files to pom project" />
+    <list default="true" id="c6fac90c-952e-4605-8d73-c1030ef42d9b" name="Changes" comment="3">
+      <change afterPath="$PROJECT_DIR$/src/main/java/cz/krystofcejchan/distributed_systems/README.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/krystofcejchan/distributed_systems/rmi/RMIServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/krystofcejchan/distributed_systems/rmi/RMIServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/krystofcejchan/semaphore_lock_await/AwaitSignalDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/krystofcejchan/semaphore_lock_await/AwaitSignalExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/krystofcejchan/semaphore_lock_await/Counter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/krystofcejchan/semaphore_lock_await/LockExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/krystofcejchan/semaphore_lock_await/MonitorExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/krystofcejchan/semaphore_lock_await/MyCounter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/krystofcejchan/semaphore_lock_await/ResourceAccess.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/krystofcejchan/semaphore_lock_await/SemaphoreExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/krystofcejchan/semaphore_lock_await/SynchronizedExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/krystofcejchan/semaphore_lock_await/WaitNotifyDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/krystofcejchan/semaphore_lock_await/WaitNotifyExample.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,34 +49,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ArrayListThreadsExample.executor": "Run",
-    "Application.AtomicIntegerExample.executor": "Run",
-    "Application.CopyOnWriteArrayListThreadsExample.executor": "Run",
-    "Application.LeaderElection.executor": "Run",
-    "Application.LongAdderExample.executor": "Run",
-    "Application.MessagingAndLeaderElection.executor": "Run",
-    "Application.ParallelStreamsExample.executor": "Run",
-    "Application.RMIClient.executor": "Run",
-    "Application.RMIServer.executor": "Run",
-    "Application.SynchronizedListThreadsExample.executor": "Run",
-    "Application.UkazkaForkJoinPool.executor": "Run",
-    "Application.UkazkaThread.executor": "Run",
-    "Application.UkazkaThreadPool.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/kcejchan/IdeaProjects/PDS-Java",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ArrayListThreadsExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AtomicIntegerExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AwaitSignalDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CopyOnWriteArrayListThreadsExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LeaderElection.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LockExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LongAdderExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MessagingAndLeaderElection.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MonitorExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ParallelStreamsExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RMIClient.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RMIServer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SemaphoreExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SynchronizedExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SynchronizedListThreadsExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UkazkaForkJoinPool.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UkazkaThread.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UkazkaThreadPool.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WaitNotifyDemo.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/kcejchan/IdeaProjects/PDS-Java&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -70,13 +92,13 @@
       <recent name="$PROJECT_DIR$/Thread, ThreadPool, ForkJoin, ParallelMergeSort" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AwaitSignalDemo">
-    <configuration name="AwaitSignalDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cz.krystofcejchan.semaphore_lock_await.AwaitSignalDemo" />
+  <component name="RunManager" selected="Application.LongAdderExample">
+    <configuration name="AtomicIntegerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cz.krystofcejchan.atomic_variables_and_threadsafe_collections.AtomicIntegerExample" />
       <module name="VolbaLidraVJGroup" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cz.krystofcejchan.semaphore_lock_await.*" />
+          <option name="PATTERN" value="cz.krystofcejchan.atomic_variables_and_threadsafe_collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LockExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cz.krystofcejchan.semaphore_lock_await.LockExample" />
+    <configuration name="LongAdderExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cz.krystofcejchan.atomic_variables_and_threadsafe_collections.LongAdderExample" />
       <module name="VolbaLidraVJGroup" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cz.krystofcejchan.semaphore_lock_await.*" />
+          <option name="PATTERN" value="cz.krystofcejchan.atomic_variables_and_threadsafe_collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,8 +145,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SynchronizedExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cz.krystofcejchan.semaphore_lock_await.SynchronizedExample" />
+    <configuration name="WaitNotifyDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cz.krystofcejchan.semaphore_lock_await.WaitNotifyDemo" />
       <module name="VolbaLidraVJGroup" />
       <extension name="coverage">
         <pattern>
@@ -138,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AwaitSignalDemo" />
-        <item itemvalue="Application.LockExample" />
+        <item itemvalue="Application.LongAdderExample" />
+        <item itemvalue="Application.AtomicIntegerExample" />
         <item itemvalue="Application.MonitorExample" />
         <item itemvalue="Application.SemaphoreExample" />
-        <item itemvalue="Application.SynchronizedExample" />
+        <item itemvalue="Application.WaitNotifyDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +187,12 @@
       <workItem from="1731501859073" duration="251000" />
       <workItem from="1731505507305" duration="277000" />
       <workItem from="1731508710238" duration="141000" />
-      <workItem from="1731521956787" duration="3118000" />
+      <workItem from="1731521956787" duration="4053000" />
+      <workItem from="1731560726934" duration="203000" />
+      <workItem from="1731561650629" duration="650000" />
+      <workItem from="1731569393542" duration="3733000" />
+      <workItem from="1731586604000" duration="178000" />
+      <workItem from="1731850893081" duration="308000" />
     </task>
     <task id="LOCAL-00001" summary="ukázky k Thread, ThreadPool, ForkJoin, ParallelMergeSort">
       <option name="closed" value="true" />
@@ -199,7 +226,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731524487845</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="3">
+      <option name="closed" value="true" />
+      <created>1731527093675</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1731527093675</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,6 +244,11 @@
     <MESSAGE value="ukázky k Thread, ThreadPool, ForkJoin, ParallelMergeSort" />
     <MESSAGE value="Atomické proměnné &amp; thread-safe kolekce" />
     <MESSAGE value="java files to pom project" />
-    <option name="LAST_COMMIT_MESSAGE" value="java files to pom project" />
+    <MESSAGE value="3" />
+    <option name="LAST_COMMIT_MESSAGE" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

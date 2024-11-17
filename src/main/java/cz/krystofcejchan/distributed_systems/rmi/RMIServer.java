@@ -13,7 +13,7 @@ public class RMIServer {
             // Vytvoření RMI registru na portu 8080
             Registry registry = LocateRegistry.createRegistry(8080);
 
-            // Registrace vzdáleného objektu pod jménem "Hello"
+            // Registrace vzdáleného objektu pod jménem "RemoteInterface"
             registry.rebind("RemoteInterface", obj);
 
             System.out.println("Server je připraven.");
